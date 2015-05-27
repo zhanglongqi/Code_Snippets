@@ -15,13 +15,13 @@ def main():
     s = None
 
     while 1:
-        new_i = struct.unpack('i', buf[:4])
-        new_s = struct.unpack('3s', buf[4:7])
+        new_i, = struct.unpack('i', buf[:4])
+        new_s, = struct.unpack('3s', buf[4:7])
 
         if i != new_i or s != new_s:
-            print "i: {} => {}".format(i, new_i)
-            print "s: {} => {}".format(s, new_s)
-            print 'Press Ctrl-C to exit'
+            print('i: %s => %d' % (i, new_i))
+            print('s: %s => %s' % (s, new_s))
+            print('Press Ctrl-C to exit')
             i = new_i
             s = new_s
 
