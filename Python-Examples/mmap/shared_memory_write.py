@@ -48,9 +48,9 @@ def main():
     s.raw = bytes('foo','utf8')
 
     print('First 10 bytes of memory mapping: %r' % buf[:10])
-    input('Now run b.py and press ENTER')
+    # input('Now run b.py and press ENTER')
 
-    print()
+    print('Now i:', i.value)
     print('Changing i')
     i.value *= i.value
 
@@ -59,6 +59,7 @@ def main():
 
     new_i = input('Enter a new value for i: ')
     i.value = int(new_i)
+    print('Now i:', i.value)
 
 if __name__ == '__main__':
     main()
