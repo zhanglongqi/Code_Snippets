@@ -21,7 +21,10 @@ Various Code Snippets on different topics about Python
 
   1. [merge_sort]
      (merge_sort.py)
+3. **Color in terminal**
 
+    ![Color in terminal](color_in_terminal.png)
+    
 4. Requests - Requests-futures
     
     A small example in terms of demonstrating the parallelization of
