@@ -23,7 +23,7 @@ Various Code Snippets on different topics about Python
      (merge_sort.py)
 3. **Color in terminal**
 
-    ![Color in terminal](color_in_terminal.png)
+    ![Color in terminal](terminal/color_in_terminal.png)
     
 4. Requests - Requests-futures
     
